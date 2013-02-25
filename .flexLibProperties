@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="alatarus.events.TreeEvent"/>
+  </includeClasses>
+  <includeResources>
+    <resourceEntry destPath="assets/disclosureOpenIcon.png" sourcePath="assets/disclosureOpenIcon.png"/>
+    <resourceEntry destPath="assets/defaultLeafIcon.png" sourcePath="assets/defaultLeafIcon.png"/>
+    <resourceEntry destPath="assets/disclosureClosedIcon.png" sourcePath="assets/disclosureClosedIcon.png"/>
+    <resourceEntry destPath="defaults.css" sourcePath="defaults.css"/>
+    <resourceEntry destPath="assets/folderClosedIcon.png" sourcePath="assets/folderClosedIcon.png"/>
+    <resourceEntry destPath="assets/folderOpenIcon.png" sourcePath="assets/folderOpenIcon.png"/>
+  </includeResources>
+  <namespaceManifests/>
+</flexLibProperties>

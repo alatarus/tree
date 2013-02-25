@@ -1,0 +1,15 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace components "alatarus.components.*";
+
+components|Tree
+{
+	disclosureOpenIcon: Embed(source="assets/disclosureOpenIcon.png");
+	disclosureClosedIcon: Embed(source="assets/disclosureClosedIcon.png");
+	folderClosedIcon: Embed(source="assets/folderClosedIcon.png");
+	folderOpenIcon: Embed(source="assets/folderOpenIcon.png");
+	defaultLeafIcon: Embed(source="assets/defaultLeafIcon.png");
+	
+	skinClass: ClassReference("alatarus.skins.TreeSkin");
+}
