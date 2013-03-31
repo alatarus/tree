@@ -136,10 +136,10 @@ package alatarus.components
 				event = new TreeEvent(TreeEvent.ITEM_OPENING, false, true, node);
 				event.opening = false;
 				dispatchEvent(event);
+
+				if (event.isDefaultPrevented())
+					return;
 			}
-			
-			if (event.isDefaultPrevented())
-				return;
 			
 			hierarchicalList.closeNode(node);
 			hierarchicalList.refresh();
