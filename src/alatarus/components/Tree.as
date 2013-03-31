@@ -111,10 +111,10 @@ package alatarus.components
 				event = new TreeEvent(TreeEvent.ITEM_OPENING, false, true, node);
 				event.opening = true;
 				dispatchEvent(event);
+
+				if (event.isDefaultPrevented())
+					return;
 			}
-			
-			if (event.isDefaultPrevented())
-				return;
 			
 			hierarchicalList.openNode(node);
 			hierarchicalList.refresh();
